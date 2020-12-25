@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E15B4F9259582E80037ED21 /* LocationQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E15B4F8259582E80037ED21 /* LocationQuery.swift */; };
 		6E6A3613259521CF006CDB7C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7B53BF25910FC700C4CB96 /* Location.swift */; };
 		6E7B53AB25910F8A00C4CB96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7B53AA25910F8A00C4CB96 /* AppDelegate.swift */; };
 		6E7B53AD25910F8A00C4CB96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7B53AC25910F8A00C4CB96 /* SceneDelegate.swift */; };
@@ -15,7 +16,6 @@
 		6E7B53B425910F8A00C4CB96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E7B53B325910F8A00C4CB96 /* Preview Assets.xcassets */; };
 		6E7B53B725910F8A00C4CB96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E7B53B525910F8A00C4CB96 /* LaunchScreen.storyboard */; };
 		6E7B53C025910FC700C4CB96 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7B53BF25910FC700C4CB96 /* Location.swift */; };
-		6E7B53C32591171A00C4CB96 /* LocationsQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7B53C22591171A00C4CB96 /* LocationsQuery.swift */; };
 		6E7B53EA25914F2A00C4CB96 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7B53CD25914EAD00C4CB96 /* WidgetKit.framework */; };
 		6E7B53EB25914F2A00C4CB96 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7B53CF25914EAD00C4CB96 /* SwiftUI.framework */; };
 		6E7B53EE25914F2A00C4CB96 /* DiningWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7B53ED25914F2A00C4CB96 /* DiningWidget.swift */; };
@@ -50,6 +50,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6E15B4F8259582E80037ED21 /* LocationQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationQuery.swift; sourceTree = "<group>"; };
 		6E7B53A725910F8A00C4CB96 /* RIT-Dining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RIT-Dining.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E7B53AA25910F8A00C4CB96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E7B53AC25910F8A00C4CB96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,7 +60,6 @@
 		6E7B53B625910F8A00C4CB96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E7B53B825910F8A00C4CB96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E7B53BF25910FC700C4CB96 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
-		6E7B53C22591171A00C4CB96 /* LocationsQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocationsQuery.swift; path = ../../../LocationsQuery.swift; sourceTree = "<group>"; };
 		6E7B53CD25914EAD00C4CB96 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		6E7B53CF25914EAD00C4CB96 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		6E7B53E925914F2A00C4CB96 /* DiningWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DiningWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,8 +114,8 @@
 				6E7B53AA25910F8A00C4CB96 /* AppDelegate.swift */,
 				6E7B53AC25910F8A00C4CB96 /* SceneDelegate.swift */,
 				6E7B53AE25910F8A00C4CB96 /* ContentView.swift */,
+				6E15B4F8259582E80037ED21 /* LocationQuery.swift */,
 				6E7B53BF25910FC700C4CB96 /* Location.swift */,
-				6E7B53C22591171A00C4CB96 /* LocationsQuery.swift */,
 				6E7B53B025910F8A00C4CB96 /* Assets.xcassets */,
 				6E7B53B525910F8A00C4CB96 /* LaunchScreen.storyboard */,
 				6E7B53B825910F8A00C4CB96 /* Info.plist */,
@@ -278,8 +278,8 @@
 				6E7B53AD25910F8A00C4CB96 /* SceneDelegate.swift in Sources */,
 				6E7B53C025910FC700C4CB96 /* Location.swift in Sources */,
 				6E7B53F425914F2A00C4CB96 /* DiningWidget.intentdefinition in Sources */,
-				6E7B53C32591171A00C4CB96 /* LocationsQuery.swift in Sources */,
 				6E7B53AF25910F8A00C4CB96 /* ContentView.swift in Sources */,
+				6E15B4F9259582E80037ED21 /* LocationQuery.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
